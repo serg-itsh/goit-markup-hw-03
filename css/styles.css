@@ -1,3 +1,13 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 /* цвет основного текста #000000 */
 /* вторичный цвет текста rgba(0, 0, 0, 0.8);
  */
@@ -17,6 +27,7 @@
 }
 
 body {
+  margin: 0;
   /* background-color: var(--primary-bg-color); */
   color: var(--primary-text-color);
 
@@ -92,6 +103,18 @@ body {
 }
 
 /* Hero */
+
+.container {
+  position: absolute;
+  width: 1600px;
+  height: 600px;
+  /* margin left: auto;
+  margin-right: auto; */
+  margin: 0 auto;
+  /* left: 0px;
+  top: 80px; */
+  /* background: #2F303A; */
+}
 
 .background-image {
   color: var(--background-color);
@@ -193,6 +216,10 @@ body {
   color: #757575;
 }
 
+.section-team {
+  background: #f5f4fa;
+}
+
 /* Portfolio */
 
 .feature-list.text-category-p {
@@ -230,6 +257,11 @@ body {
   color: #ffffff;
 }
 
+.btn-hero {
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+
 .filters-list-btn {
   /* position: absolute; */
   width: 128px;
@@ -245,6 +277,7 @@ body {
 .filters-btn:focus {
   color: var(--primary-color);
   background-color: var(--accent-color);
+  /* background-color: #2196f3; */
   cursor: pointer;
 }
 
