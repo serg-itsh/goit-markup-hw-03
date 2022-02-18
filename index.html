@@ -14,52 +14,53 @@
 </head>
 <body>
     <!-- Шапка сайта -->
-  <header>
-        <nav>
-            <a href="" class="logo" lang="en">Web<span class="studio-dark">Studio</span></a>
-
-            <ul class="site-nav list">
-                <li><a href="" class="link current" :hover>Студия</a></li>
-                <li><a href="./portfolio.html" class="link">Портфолио</a></li>
-                <li><a href="" class="link">Контакты</a></li>
+  <header class="page-header">
+      <div class="header container main-nav">
+            <nav class="header container">
+                <a href="" class="logo" lang="en">Web<span class="studio-dark">Studio</span></a>
+            
+                <ul class="site-nav list">
+                    <li><a class="item link current" href="" :hover>Студия</a></li>
+                    <li><a class="item link" href="./portfolio.html" >Портфолио</a></li>
+                    <li><a  class="item link" href="">Контакты</a></li>
+                </ul>
+            </nav>
+            
+            <!-- <ul class="site-nav list"> -->
+            <ul class="auth-nav list">
+                <li><a class="item link-contacts link" href="" >info@devstudio.com</a></li>
+                <li><a class="item link-contacts link" href="" >+38 096 111 11 11</a></li>
             </ul>
-        </nav>
-
-        <ul class="site-nav list">
-            <li><a href="" class="link-contacts link">info@devstudio.com</a></li>
-            <li><a href="" class="link-contacts link">+38 096 111 11 11</a></li>
-        </ul>
+      </div>        
 
   </header>
 
   <!-- Уникальный контент страницы, неповторяющийся на других страницах сайта-->
   <main>
         <!-- Герой -->
-        <section class="hero">
-            <div class="footer container">
-                <h1 class="hero-title list">Эффективные решения<br /> для вашего бизнеса</h1>
-                <button class="filters-btn button" type="button">
-                    Заказать услугу                   
-                </button>
-            </div>
+        <section class="hero container">            
+            <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+            <button class="filters-btn button" type="button">
+                Заказать услугу                   
+            </button>           
         </section>
 
         <!-- Преимущества -->
-        <section class="section">
-            <ul class="feature-list list">
-                <li>
+        <section class="section container">
+            <ul class="feature-list list container">
+                <li class="item">
                     <h3 class="feature-list text-category">Внимание к деталям</h3>
                     <p class="feature-list text-items">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                 </li>
-                <li>
+                <li class="item">
                     <h3 class="feature-list text-category">Пунктуальность</h3>
                     <p class="feature-list text-items">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                 </li>
-                <li>
+                <li class="item">
                     <h3 class="feature-list text-category">Планирование</h3>
                     <p class="feature-list text-items">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                 </li>
-                <li>
+                <li class="item">
                     <h3 class="feature-list text-category">Современные технологии</h3>
                     <p class="feature-list text-items">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                 </li>
@@ -67,7 +68,7 @@
         </section>
 
         <!-- Примеры работ -->
-        <section class="section">
+        <section class="section container">
             <h2 class="section-title">Чем мы занимаемся</h2>
 
             <ul class="work-list list">
@@ -84,10 +85,10 @@
         </section>
 
         <!-- Команда -->
-        <section class="section-team">
+        <section class="section-team container">
             <h2 class="section-title">Наша команда</h2>
 
-            <ul class="list">
+            <ul class="team-card list">
                 <li>
                     <div>
                         <img src="./images/img.jpg" alt="Игорь Демьяненко, дизайнер продукта " width="270" />
@@ -117,7 +118,7 @@
     <!-- Футер -->
     <!-- Я не джин 🧞 -->
   <footer>
-        <div class="footer">
+        <div class="footer container">
             <a href="" class="logo" lang="en">Web<span class="studio-white" lang="en">Studio</span></a>
 
             <address>
