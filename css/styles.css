@@ -62,9 +62,14 @@ nav.header {
   align-items: center;
 }
 
+.item-0 {
+  margin-right: 50px;
+}
+
 .header-container {
   /* margin: 0 auto; */
   /* position: absolute; */
+  border-bottom: 1px solid #ececec;
   width: 1600px;
   height: 80px;
   margin-left: auto;
