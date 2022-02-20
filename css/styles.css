@@ -37,6 +37,20 @@ body {
   line-height: 1.71;
 }
 
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0 auto;
+}
+
+.box {
+  width: 1600px;
+  align-items: center;
+}
+
 /* Утилиты */
 
 /* Особенности */
@@ -77,15 +91,6 @@ ul {
 /* background: #2f303a; */
 /* } */
 
-.container {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-  margin: 0 auto;
-}
-
 /* Верхняя линия */
 
 nav.header {
@@ -97,12 +102,12 @@ nav.header {
   margin-right: 50px;
 }
 
-.header-container {
+.header {
   /* margin: 0 auto; */
   /* position: absolute; */
   /* border-bottom: 1px solid #ececec;
-  width: 1600px;
-  height: 80px;
+  width: 1600px; */
+  /* height: 80px;
   margin-left: auto;
   margin-right: auto; */
 
@@ -403,11 +408,12 @@ img {
 
 .section-team {
   width: 1600px;
+  align-items: center;
   background: #f5f4fa;
 }
 
 .section-title {
-  margin-top: 94px;
+  padding-top: 94px;
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 36px;
@@ -416,13 +422,21 @@ img {
   letter-spacing: 0.03em;
 }
 
-.team-card {
+.team-card-box {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 50px;
-  margin-bottom: 94px;
+  padding-bottom: 94px;
   /* background-color: tomato; */
+}
+
+.card-bg {
+  background: #ffffff;
+  /* material shadow v1 */
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-card-5 {
@@ -430,7 +444,7 @@ img {
 }
 
 .team-card-6 {
-  margin-bottom: 94px;
+  /* margin-bottom: 94px; */
 }
 
 .feature-list-7 {
@@ -456,6 +470,10 @@ img {
 }
 
 /* Portfolio */
+
+.portfolio {
+  padding-bottom: 94px;
+}
 
 .flex-container-1 {
   display: flex;
@@ -579,6 +597,7 @@ img {
 }
 
 .logo-footer {
+  margin-left: 215px;
   padding-top: 60px;
   /* padding-bottom: 161px; */
 }
@@ -590,5 +609,6 @@ img {
 
 .link-footer {
   margin-top: 20px;
-  margin-bottom: 60px;
+  margin-left: 215px;
+  padding-bottom: 60px;
 }
