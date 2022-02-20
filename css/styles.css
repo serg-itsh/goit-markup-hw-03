@@ -241,15 +241,9 @@ nav.header {
 }
 
 .hero-title {
-  /* padding-top: 200px;
-  padding-bottom: 200px; */
   margin: 0 auto;
   color: var(--primary-color);
   width: 696px;
-  /* height: 120px; */
-  /* left: 452px; */
-  /* top: 200px;
-  bottom: 280px; */
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -497,6 +491,7 @@ img {
 }
 
 .btn-hero {
+  border: 0;
   background: #f5f4fa;
   border-radius: 4px;
   /* margin: 94px 4px 50px 4px; */
