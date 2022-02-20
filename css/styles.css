@@ -98,6 +98,16 @@ nav.header {
   align-items: center;
 }
 
+.page-header {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0 auto;
+  width: 1600px;
+  border-bottom: 1px solid #ececec;
+}
+
 .item-0 {
   margin-right: 50px;
 }
