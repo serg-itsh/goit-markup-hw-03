@@ -261,13 +261,6 @@ nav.header {
   color: #ffffff;
 }
 
-.btn-hero {
-  background: #f5f4fa;
-  border-radius: 4px;
-  margin: 94px 4px 50px 4px;
-  /* margin-right: 4; */
-}
-
 .filters-list-btn {
   /* position: absolute; */
   width: 128px;
@@ -406,7 +399,6 @@ img {
 }
 
 /* team */
-
 /* Наша команда */
 
 .section-team {
@@ -455,7 +447,35 @@ img {
   margin-bottom: 30px;
 }
 
-.flex-container {
+.feature-list.team-items {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/* Portfolio */
+
+.flex-container-1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border-color: teal;
+  margin-top: 94px;
+  margin-bottom: 50px;
+  margin-right: 8px;
+}
+
+.btn-hero {
+  background: #f5f4fa;
+  border-radius: 4px;
+  /* margin: 94px 4px 50px 4px; */
+  margin-right: 8px;
+}
+
+.flex-container-2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -487,19 +507,26 @@ img {
   margin-right: 0;
 }
 
+.project-p {
+  display: flex;
+}
+
+.project-p-1 {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 4px;
+  margin-left: 24px;
+}
+
+.project-p-2 {
+  display: flex;
+  margin-left: 24px;
+  margin-bottom: 20px;
+}
+
 /* .flex-element:nth-child(-n + 3) {
   margin-bottom: 0;
 } */
-
-.feature-list.team-items {
-  font-size: 16px;
-  line-height: 1.19;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #757575;
-}
-
-/* Portfolio */
 
 .feature-list.text-category-p {
   color: #212121;
