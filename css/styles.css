@@ -474,7 +474,7 @@ img {
   /* margin-bottom: 30px; */
 }
 
-.feature-list.team-items {
+.feature-list-.team-items {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -560,7 +560,7 @@ img {
   margin-bottom: 0;
 } */
 
-.feature-list.text-category-p {
+.project-p-1.text-category-p {
   color: #212121;
   font-weight: 700;
   font-size: 18px;
@@ -570,7 +570,7 @@ img {
   letter-spacing: 0.06em;
 }
 
-.feature-list.text-items-p {
+.project-p-2.text-items-p {
   color: #757575;
   font-size: 16px;
   line-height: 1.88;
