@@ -460,7 +460,7 @@ img {
 }
 
 .team-card-6 {
-  padding: 30px, 0px;
+  padding: 30px 0px;
   /* margin-bottom: 94px; */
 }
 
@@ -468,14 +468,14 @@ img {
   display: flex;
   justify-content: center;
   /* margin-top: 30px; */
-  padding-top: 30px;
+  /* padding-top: 30px; */
   margin-bottom: 10px;
 }
 
 .feature-list-8 {
   display: flex;
   justify-content: center;
-  padding-bottom: 90px;
+  /* padding-bottom: 90px; */
   /* margin-top: 30px; */
   /* margin-bottom: 30px; */
 }
@@ -491,6 +491,7 @@ img {
 /* Portfolio */
 
 .portfolio {
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 
@@ -500,17 +501,22 @@ img {
   justify-content: center;
   align-items: center;
   border-color: teal;
-  margin-top: 94px;
+  /* margin-top: 94px; */
   margin-bottom: 50px;
+  /* margin-right: 8px; */
+}
+
+.btn-hero-1 {
   margin-right: 8px;
 }
 
 .btn-hero {
+  padding: 6px 22px;
   border: 0;
   background: #f5f4fa;
   border-radius: 4px;
   /* margin: 94px 4px 50px 4px; */
-  margin-right: 8px;
+  /* margin-right: 8px; */
 }
 
 .flex-container-2 {
@@ -520,13 +526,13 @@ img {
   align-items: center;
   border-color: teal;
   margin: -15px;
+}
 
-  /* width: 1230px;
+/* width: 1230px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto; */
-}
 
 .flex-element {
   display: flex;
@@ -545,21 +551,27 @@ img {
   margin-right: 0;
 }
 
+.project {
+  padding: 20px 24px;
+  border-top: 0px;
+  border: 1px solid #eeeeee;
+}
+
 .project-p {
-  display: flex;
+  flex-wrap: wrap;
 }
 
 .project-p-1 {
-  display: flex;
+  /* display: flex;
   margin-top: 20px;
   margin-bottom: 4px;
-  margin-left: 24px;
+  margin-left: 24px; */
 }
 
 .project-p-2 {
-  display: flex;
+  /* display: flex;
   margin-left: 24px;
-  margin-bottom: 20px;
+  margin-bottom: 20px; */
 }
 
 /* .flex-element:nth-child(-n + 3) {
@@ -567,6 +579,7 @@ img {
 } */
 
 .project-p-1.text-category-p {
+  margin-bottom: 4px;
   color: #212121;
   font-weight: 700;
   font-size: 18px;
@@ -611,7 +624,7 @@ img {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer {
+footer {
   padding-top: 60px;
   padding-bottom: 60px;
   /* width: 1600px; */
@@ -625,13 +638,16 @@ img {
   /* padding-bottom: 161px; */
 }
 
+address {
+  margin-top: 20px;
+}
+
 .social-links a {
   color: #ffffff;
   text-decoration: none;
 }
 
 .link-footer {
-  margin-top: 20px;
   margin-left: auto;
   /* padding-bottom: 60px; */
 }
