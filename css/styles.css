@@ -47,13 +47,17 @@ body {
 }
 
 .box {
-  width: 1600px;
-  align-items: center;
+  /* width: 1600px; */
+  /* align-items: center; */
 }
 
 /* Утилиты */
 
 /* Особенности */
+
+.section {
+  padding: 94px 0;
+}
 
 .list {
   margin: 0;
@@ -64,7 +68,7 @@ body {
 
 .list-2 {
   margin: 0;
-  padding: 94px 0;
+  /* padding: 94px 0; */
   list-style: none;
   text-decoration: none;
 }
@@ -99,12 +103,12 @@ nav.header {
 }
 
 .page-header {
-  padding-left: 15px;
-  padding-right: 15px;
+  /* padding-left: 15px;
+  padding-right: 15px; */
   margin-left: auto;
   margin-right: auto;
-  margin: 0 auto;
-  width: 1600px;
+  /* margin: 0 auto;
+  width: 1600px; */
   border-bottom: 1px solid #ececec;
 }
 
@@ -232,7 +236,7 @@ nav.header {
 .hero {
   padding-top: 200px;
   padding-bottom: 200px;
-  width: 1600px;
+  /* width: 1600px; */
   /* height: 600px; */
   text-align: center;
   /* left: 0px;
@@ -293,7 +297,7 @@ nav.header {
 /* Чем мы занимаемся */
 
 .section-title-3 {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 36px;
@@ -315,7 +319,7 @@ img {
 
 .feature-list {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 
 .feature-list .item-2 {
@@ -348,8 +352,8 @@ img {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  margin-top: 50px;
-  margin-bottom: 94px;
+  /* margin-top: 50px;
+  margin-bottom: 94px; */
   /* margin-bottom: 94px; */
   /* margin: 15px; */
   /* background-color: tomato; */
@@ -411,13 +415,15 @@ img {
 /* Наша команда */
 
 .section-team {
-  width: 1600px;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  /* width: 1600px; */
   align-items: center;
   background: #f5f4fa;
 }
 
 .section-title {
-  padding-top: 94px;
+  /* padding-top: 94px; */
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 36px;
@@ -431,7 +437,7 @@ img {
   justify-content: center;
   align-items: center;
   margin-top: 50px;
-  padding-bottom: 94px;
+
   /* background-color: tomato; */
 }
 
@@ -448,21 +454,24 @@ img {
 }
 
 .team-card-6 {
+  padding: 30px, 0px;
   /* margin-bottom: 94px; */
 }
 
 .feature-list-7 {
   display: flex;
   justify-content: center;
-  margin-top: 30px;
+  /* margin-top: 30px; */
+  padding-top: 30px;
   margin-bottom: 10px;
 }
 
 .feature-list-8 {
   display: flex;
   justify-content: center;
+  padding-bottom: 90px;
   /* margin-top: 30px; */
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }
 
 .feature-list.team-items {
@@ -597,12 +606,12 @@ img {
 }
 
 .footer {
-  width: 1600px;
+  /* width: 1600px; */
   background-color: #2f303a;
 }
 
 .logo-footer {
-  margin-left: 215px;
+  margin-left: auto;
   padding-top: 60px;
   /* padding-bottom: 161px; */
 }
@@ -614,6 +623,6 @@ img {
 
 .link-footer {
   margin-top: 20px;
-  margin-left: 215px;
+  margin-left: auto;
   padding-bottom: 60px;
 }
