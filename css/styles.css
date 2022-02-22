@@ -96,6 +96,8 @@ ul {
 /* background: #2f303a; */
 /* } */
 
+/* top line bg */
+/* Line */
 /* Верхняя линия */
 
 nav.header {
@@ -133,6 +135,7 @@ nav.header {
 
 /* ✅ Применится только к ссылкам, которые лежат внутри тега с классом social-links */
 
+/* WebStudio */
 /* Logo */
 
 .logo {
@@ -159,7 +162,12 @@ nav.header {
 .logo:hover {
   color: var(--accent-color);
 }
+/* Студия */
+/* Активная ссылка */
+/* Портфолио */
+/* Контакты */
 
+/* Menu Nav */
 /* Main-nav */
 
 .main-nav {
@@ -168,6 +176,8 @@ nav.header {
   justify-content: space-between;
 }
 
+/* envelope */
+/* info@devstudio.com */
 /* site-nav */
 
 .site-nav {
@@ -209,6 +219,12 @@ nav.header {
   color: var(--accent-color);
   text-decoration: none;
 }
+
+/* envelope (hover) */
+/* info@devstudio.com */
+/* envelope */
+/* Hover */
+/* E-mail */
 
 /* Auth-nav */
 
@@ -553,8 +569,8 @@ img {
 
 .project {
   padding: 20px 24px;
-  border-top: 0px;
   border: 1px solid #eeeeee;
+  border-top: 0px;
 }
 
 .project-p {
